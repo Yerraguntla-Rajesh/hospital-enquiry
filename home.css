@@ -1,0 +1,91 @@
+body{
+	font-family: Arial, sans-serif;
+	margin: 0;
+	background-color: skyblue;
+    padding: 0;
+	background-image: linear-gradient(15deg,blue, lightskyblue );
+}
+
+h1{
+	background-color: darkblue;
+	color: white; 
+	text-align: center;
+	margin-top: 0px;
+	padding: 30px;
+}
+p{
+	color: whitesmoke;
+}
+.header ul{
+	width: 100%;
+    display: flex;
+	color: white;
+	background-color: darkblue;
+    justify-content: space-around;
+	position: fixd;
+	top: 65px;
+}
+nav li a{
+	margin: 10px;
+}
+
+nav a {
+	color:white;
+	text-decoration: none;
+}
+ol li{
+	color: whitesmoke;
+}
+footer{
+	text-align: center;
+	color: black;
+
+}
+button:hover
+{
+	text-decoration-style: solid;
+		background-color: red;
+		color: white;
+}
+button{
+	border-radius: 20px;
+}
+.pagination{
+	display: inline-block;
+	margin-left: 37%;
+}
+.pagination a{
+	color: black;
+	float: left;
+	padding: 8px 16px;
+	text-decoration:none;
+	border: 1px solid black;
+	justify-content: center;
+}
+.pagination a:hover{
+	background-color: blue;
+	color: white;
+}
+nav a:hover{
+	background-color: white;
+	color: black;
+
+}
+  @media (max-width: 850px){
+	nav ul {
+		width: 100%;
+		background-color: darkblue;
+		position: fixed;
+		top: 59px;
+	}
+
+}
+@media (max-width: 450px){
+	nav ul {
+		width: 100%;
+		background-color: darkblue;
+		position: fixed;
+		top: 59px;
+	}
+
+}
